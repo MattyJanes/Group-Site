@@ -40,5 +40,16 @@ body {
     left:0;
     bottom: 0;
     width: 100%;
-    background-color: #C89368;
+    background-color: #333;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer a{
+    color: slategrey;
+    text-decoration: none;
+}
+.container {
+    height: 1500px;
 }
