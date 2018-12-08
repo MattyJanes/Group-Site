@@ -77,19 +77,36 @@ display: flex;
   padding: 20px;
      clear: both;
 }
-
-
-#pic{
-    width: 40%;
+#indexp {
+    padding-top: 5%;
 }
 
+
+
+.beerone h3, .beertwo h3, .beerthree h3, .beerfour h3 {
+    padding-top: 8%;
+}
+.beerone p, .beerthree p{
+    padding-right: 5%;
+}
+
+.beertwo p, .beertwo h3, .beerfour p, .beerfour h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.beertwo{
+    float: left;
+}
 .pic1 {
     float: left;    
 }
-.beerone{
-    
-}
 .pic2 {
+float: right;
+}
+.beerthree{
+    float: left;
+}
+.beerfour {
     float: right;
 }
 
