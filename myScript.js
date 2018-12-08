@@ -1,21 +1,3 @@
-function resize() {
-    "use strict";
-
-    if (pic.width === 400 && pic.height === 200) {
-
-        document.getElementById("pic").width = pic.width * 1.25;
-
-        document.getElementById("pic").height = pic.height * 1.25;
-    }
-
-            else if (pic.width > 400 && pic.height > 200) {
-
-        document.getElementById("pic").width = "400";
-
-        document.getElementById("pic").height = "200";
-    }
-}
-
 window.onload = function dateTime() {
     "use strict";
 
@@ -23,3 +5,47 @@ window.onload = function dateTime() {
         document.getElementById("date").innerHTML = new Date();
     }, 1000);
 };
+
+function imgWindow() {
+    "use strict";
+
+    var pic = document.getElementById("pic");
+    pic.style.display = "block";
+    var x = 800;
+    var y = 500;
+    var url = pic.getAttribute("src");
+    window.open(url,"Image","width=x,height=y,resizable=1");
+}
+
+function imgWindow1() {
+    "use strict";
+
+    var pic = document.getElementById("pic1");
+    pic1.style.display = "block";
+    var x = 800;
+    var y = 500;
+    var url = pic1.getAttribute("src");
+    window.open(url,"Image","width=x,height=y,resizable=1");
+}
+
+function imgWindow2() {
+    "use strict";
+
+    var pic = document.getElementById("pic2");
+    pic2.style.display = "block";
+    var x = 800;
+    var y = 500;
+    var url = pic2.getAttribute("src");
+    window.open(url,"Image","width=x,height=y,resizable=1");
+}
+
+function imgWindow3() {
+    "use strict";
+
+    var pic = document.getElementById("pic3");
+    pic3.style.display = "block";
+    var x = 800;
+    var y = 500;
+    var url = pic3.getAttribute("src");
+    window.open(url,"Image","width=x,height=y,resizable=1");
+}
