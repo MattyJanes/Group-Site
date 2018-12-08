@@ -53,3 +53,37 @@ body {
 .container {
     height: 1500px;
 }
+
+.content {
+  margin: 20px;
+}
+
+.content h1 {
+  background-color: #333;
+  padding-left: 20px;
+  color: white;
+}
+
+.beersZero {
+  margin: 30px;
+}
+
+.beersZero p {
+  margin-right: 20px;
+}
+
+.beersFirst {
+  padding: 20px;
+}
+
+.beersSec {
+  padding: 20px;
+}
+
+.beersThird {
+  padding: 20px;
+}
+
+.seasonal {
+  padding: 20px;
+}
