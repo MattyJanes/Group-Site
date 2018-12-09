@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: "Abel";
+}
+a {
+    text-decoration: none;
+}
+#pic,#pic2 {
+  float: left;
+  width: 40%;
+  margin: 5%;
+  margin-left: 0%;
+}
+
+#pic3,#pic1 {
+  float: right;
+  width: 40%;
+  margin: 5%;
+  margin-right: 0%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0,140,186,0.5)
+}
+iframe {
+    border: 0;
+    width: 800px;
+    height: 500px;
+}
+.topnavbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.topnavbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnavbar a.home {
+  background-color: grey;
+  color: white;
+}
+
+.logo {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  width: 0;
+  cursor: default;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo:hover {
+    box-shadow: none;
+}
+
+#liquor {
+  text-decoration: none;
+}
+
+#octopus {
+  width: 40px;
+  border: 0;
+  border-radius: 0;
+  padding: 0; 
+}
+
+#octopus:hover {
+    box-shadow: none;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer a {
+  color: slategrey;
+  text-decoration: none;
+}
+
+.content {
+  margin: 20px;
+}
+
+.content h1 {
+  background-color: #333;
+  padding-left: 20px;
+  color: white;
+}
+
+.seasonal {
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+#indexp {
+  padding-top: 5%;
+}
+
+.beerone h3,.beertwo h3,.beerthree h3,.beerfour h3 {
+  padding-top: 8%;
+}
+
+.beerone p,.beerthree p {
+  padding-right: 5%;
+}
+
+.beertwo p,.beertwo h3,.beerfour p,.beerfour h3 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.beertwo {
+  float: left;
+}
+
+.pic1 {
+  float: left;
+}
+
+.pic2 {
+  float: right;
+}
+
+.beerthree {
+  float: left;
+}
+
+.beerfour {
+  float: right;
+}
+
+.container {
+  font-family: Abel;
+  font-size: 25px;
+  height: 100%;
+  padding: 10%;
+  padding-top: 5%;
+  border: 20px solid #333;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+}
+
+#indeximage {
+  border: 0;
+  border-radius: 0;
+  padding: 0;    
+  width: 40%;
+  float: left;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  cursor: default;
+}
+
+#indeximage:hover {
+    box-shadow: none;
+}
+p#date {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  border: 2px Solid black;
+  background-color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+#restaurant {
+    text-align: center;
+}
+
+#salad {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 6%;
+    margin-left: 0%;
+}
+
+#beef {
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 6%;
+    margin-right: 0%;
+}
+
+#seasonalheader {
+    height: 150px;
+    background-image: url(Beers.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 4px 4px black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dandy {
+    height: 150px;
+    background-image: url(Bottles.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 4px 4px black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tastingheader {
+    height: 150px;
+    background-image: url(Caviar%20Martini%20Champagne%20Rose.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 4px 4px black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
